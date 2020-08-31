@@ -50,5 +50,5 @@ plot(df$Time, df$Global_reactive_power,
      ylab = "Global_reactive_power")
 
 #Copy graphic device to PNG file
-dev.copy(png, file = "plot4.png") #Create PNG file
+dev.copy(png, file = "plot4.png", width = 480, height = 480) #Create PNG file
 dev.off() #Close graphic device
